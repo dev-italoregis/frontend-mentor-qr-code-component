@@ -26,3 +26,7 @@ article {
     font-size: 15px;
     font-family: 'Outfit';
 }
+
+.card img {
+    width: 100%;
+}
