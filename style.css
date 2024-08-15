@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* 
+- White: hsl(0, 0%, 100%)
+
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%) */
+
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+ 
+}
+
+.card {
+    border: 1px solid none;
+    padding: 13px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container img {
+    width: 100%;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.text {
+    padding: 0 15px;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px 0;
+    color: hsl(218, 44%, 22%) ;
+}
+
+p {
+    padding: 0 20px 20px;
+    color: hsl(216, 15%, 48%);
+}
